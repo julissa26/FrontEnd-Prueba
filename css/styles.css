@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+
+
+.iconss{
+    font-size:x-large;
+    color: #FF3C1F;
+    align-items: center;
+}
+
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacto{
+    color:#D9E0E2;
+    background-color: #4E5860;
+    text-align: center;
+    font-family: 'Quicksand', 'Raleway',sans-serif;
+    text-align:left;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.titulos{
+    font-family: 'News Cycle', sans-serif;
+    color:#D9E0E2;
+}
+
+.titulos a:link, li, a:hover{
+    color: azure;
+}
+
+.cinta{
+    background-color:#26313B;
+    color:#D9E0E2;
+    font-family: 'Quicksand', 'Raleway',sans-serif;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 1px;
+    
+}
+
+.jumbotron .texto{
+    background:transparent!important;
+    text-align: center;
+    color:  #FF3C1F;
+}
+
