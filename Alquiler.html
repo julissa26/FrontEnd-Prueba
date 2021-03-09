@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="containerNav">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler hidden-md-up pull-xs-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                    ☰
+                </button>
+                <a class="navbar-brand" href="#">CarRental</a>
+                <div class="collapse navbar-toggleable-sm" id="collapsingNavbar2">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuevo Auto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CrearAlquiler.html">Crear Alquiler</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-xs-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="DatosAlquiler.html">Datos de Alquileres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../login.html">Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <header>
+        <div class="jumbotron">
+            <div class="texto">
+                <h2>Bienvenido a CarRental</h2>
+                <p>Portal de Administrador</p>
+            </div>
+        </div>
+    </header>
+
+
+   <!--  Area Auto Nuevo Para Alquiler  -->
+   <div class="container">
+    <br><br>
+    <div class="titulo text-center">
+        <h3>Solicitud de Alquiler</h3>
+    </div>
+    <form>
+        <br>
+        <div class="row">
+                <div class="col">
+                    <label for="">Marca</label>
+                    <input type="text" class="form-control" placeholder="Marca" readonly>
+                </div>
+                <div class="col">
+                    <label for="">Modelo</label>
+                    <input type="text" class="form-control" placeholder="Modelo" readonly>
+                </div>
+                <div class="col">
+                    <label for="">Año</label>
+                    <input type="text" class="form-control" placeholder="año" readonly>
+                </div>
+                   
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <label for="">Desde</label>
+                <input type="date" class="form-control" placeholder="Dia en que se Recoge" required>
+            </div>
+            <div class="col">
+                <label for="">Hasta</label>
+                <input type="text" class="form-control" placeholder="Dia en que se Devuelve" required>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" id="encargado" placeholder="Encargado de Supervisión" readonly>
+            </div>
+            <div class="col">
+                <label for="Cedula">Cedula</label>
+                <input type="text" class="form-control" id="encargado" placeholder="Encargado de Supervisión" readonly>
+        </div>
+            <div class="col">
+                <label for="telefono">Telefono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="666-5555" required>
+            </div>
+            <div class="col">
+                <label for="correoContacto">Correo</label>
+                <input type="email" class="form-control" id="correoContacto" placeholder="Correo de contacto">
+            </div>  
+        </div>
+         <br>
+
+        <div class="boton">
+        <button type="submit" class="btn btn float-right " style="color:#FF3C1F;">Publicar</button>
+        </div>
+    </form>
+    </div>
+    <br><br><br>
+
+    <footer class="footer ">   
+            <section class="contacto">
+                <div class="row">
+                    <div class="col-sm-5 col-md-3" >
+                        <h5 class="titulos">Links</h5>
+                        <ul>
+                            <a href="·NuevoAuto"><li>Nuevo Auto</li></a>
+                            <a href="CrearAlquiler.html"><li>Crear Alquiler</li></a>
+                            <a href="DatosAlquiler.html"><li>Datos de Alquiler</li></a>
+                            <a href="../login.html"><li>Cerrar Sesión</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 col-md-3">
+                        <h5 class="titulos">Servicio al Cliente</h5>
+                            <ul>
+                                <a href=""><li>FAQ</li></a>
+                                <li>contacto</li>
+                                <li>Telefonos: +507 666 555 </li>
+                            </ul>
+                    </div>
+                    <div class="col-sm-5 col-md-3">
+                        <h5 class="titulos">Ubicaciones</h5>
+                        <ul>
+                            <li>Av. Ricardo J. Alfaro</li>
+                            <li>Las Cumbres</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 col-md-3">
+                        <h5 class="titulos">Redes sociales</h5>
+                        <div class="iconss align-items-center">
+                            <a class="btn-google" style="color: #FF3C1F" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn-facebook" style="color: #FF3C1F" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                            <a class="btn-instagram" style="color: #FF3C1F" href="http://www.instagram.com/in/"><i class="fa fa-instagram"></i></a>
+                            <a class="btn-twitter" style="color: #FF3C1F" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a class="btn-social-icon" style="color: #FF3C1F" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </section>
+            <section class="cinta">
+                <div class="row">
+                    <div class="col">
+                        <p class>© Copyright 2021 CarRental Site</p>
+                    </div>
+                </div>
+                
+            </section>
+        </footer>
+
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

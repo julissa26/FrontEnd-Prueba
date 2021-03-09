@@ -10,8 +10,7 @@
 
 
 .container {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    font-family: 'News Cycle', sans-serif;}
 
 .contacto{
     color:#D9E0E2;
@@ -47,4 +46,9 @@
     text-align: center;
     color:  #FF3C1F;
 }
-
+form{
+    display: inline-block;
+}
+.registro{
+    padding-left: 400px;
+}

@@ -48,14 +48,54 @@
 
     <header>
         <div class="jumbotron">
-            <h1>vista de empresa</h1>
+            <div class="texto">
+                <h2>Bienvenido a CarRental</h2>
+                <p>Portal de Administrador</p>
+            </div>
         </div>
     </header>
 
 
    <!--  Area Auto Nuevo Para Alquiler  -->
-    <div>
-        <h1>Area AUTO NUEVO PARA Alquiler</h1>
+   <div class="container">
+    <br><br>
+    <div class="titulo text-center">
+        <h3>Auto Nuevo</h3>
+    </div>
+    <form>
+        <br>
+        <div class="row">
+                <div class="col">
+                    <label for="">Marca</label>
+                    <input type="text" class="form-control" placeholder="Marca" required>
+                </div>
+                <div class="col">
+                    <label for="">Modelo</label>
+                    <input type="text" class="form-control" placeholder="Modelo" required>
+                </div>
+                <div class="col">
+                    <label for="">Año</label>
+                    <input type="text" class="form-control" placeholder="año" required>
+                </div>
+                    <!-- <div class="row"> -->
+                        <div class="col">
+                            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                            <input class="form-control" type="file" id="formFileDisabled" disabled />
+                    </div>  
+                <!-- </div> -->
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="descripcion">Descripción</label>
+          <textarea class="form-control" id="descripcion" rows="3" placeholder="Descripción del Trabajo" required></textarea>
+        </div>
+        <br>
+        
+
+        <div class="boton">
+        <button type="submit" class="btn btn float-right " style="color:#FF3C1F;">Publicar</button>
+        </div>
+    </form>
     </div>
     <br><br><br>
 
